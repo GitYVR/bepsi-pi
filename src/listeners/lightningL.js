@@ -32,7 +32,7 @@ const startLightningListener = async () => {
 
   // Error handling
   ws.onerror = (error) => {
-  console.error("WebSocket error:", error.message);
+  console.error("LNbits WebSocket error:", error.message);
   };
 };
 
