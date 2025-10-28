@@ -3,8 +3,9 @@
 Code that lives in the bepsi vending machine that does three things:
 
 - Listens to MATIC/DAI/USDC/USDT payments to `PAYMENT_ADDRESS`, on payment dispenses bepsi
-- Listens to an LNbits websockets, on payment dispenses bepsi
-- Listens to discord emoji reaction, on reaction dispenses bubbly
+- Listens to an LNbits websockets for Lightning payments, on payment dispenses bepsi
+- Listens to a BTCPay websockets for Ark payments, on payment dispenses bepsi
+- Listens to discord emoji reaction, on reaction dispenses bepsi
 
 This guide was written for Debian 12.
 
